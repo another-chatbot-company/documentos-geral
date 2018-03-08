@@ -1,4 +1,4 @@
-Escopo Backend
+﻿Escopo Backend
 	Aqui é onde mora a maior parte da inteligência do nosso projeto.
 	Consiste em duas aplicações:
 	- IA do chatbot;
@@ -7,11 +7,12 @@ Escopo Backend
 	O Chatbot a ser implementado será tão inteligente quanto o FAQ da FepWeb, com algumas características
 	que somente a IA pode oferecer, como o aprendizado. O objetivo primário dele não é ter inúmeras respostas,
 	mas conseguir aprender o maior número de perguntas cujas respostas podem ser encontradas nos FAQ e em
-	documentos extras da FepWeb (no Confluence). Ele não tem função de roteador de chamados, pois todos eles
+	documentos extras da FepWeb* (no Confluence). Ele não tem função de roteador de chamados, pois todos eles
 	serão direcionados a um só responsável pela triagem (Felipe, no caso).
 	O ambiente a ser utilizado, a priori, é o Azure (Microsoft). Está sendo pesquisado também a viabilidade da Amazon.
 	Quando o chamado chegar à caixa, e a IA julgar que consegue atendê-lo satisfatoriamente, 
-
+	
+	*se der tempo
 
 Escopo Mobile
 	O aplicativo mobile será um "upgrade" ao que já existe de Suporte no aplicativo da FepWeb.
