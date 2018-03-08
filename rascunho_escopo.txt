@@ -1,0 +1,42 @@
+Escopo Backend
+	Aqui é onde mora a maior parte da inteligência do nosso projeto.
+	Consiste em duas aplicações:
+	- IA do chatbot;
+	- Aplicação utilitária para escutar a chegada de um chamado favorável ao atendimento do chatbot.
+	
+	O Chatbot a ser implementado será tão inteligente quanto o FAQ da FepWeb, com algumas características
+	que somente a IA pode oferecer, como o aprendizado. O objetivo primário dele não é ter inúmeras respostas,
+	mas conseguir aprender o maior número de perguntas cujas respostas podem ser encontradas nos FAQ e em
+	documentos extras da FepWeb (no Confluence). Ele não tem função de roteador de chamados, pois todos eles
+	serão direcionados a um só responsável pela triagem (Felipe, no caso).
+	O ambiente a ser utilizado, a priori, é o Azure (Microsoft). Está sendo pesquisado também a viabilidade da Amazon.
+	Quando o chamado chegar à caixa, e a IA julgar que consegue atendê-lo satisfatoriamente, 
+
+
+Escopo Mobile
+	O aplicativo mobile será um "upgrade" ao que já existe de Suporte no aplicativo da FepWeb.
+	Consiste em uma aplicação:
+	- Interface com o Chatbot.
+	
+	Utilizando o que puder aproveitar do material gráfico deles, a aplicação
+	
+	*Ainda não temos decidido se será direto no código fonte do aplicativo já existente da FW ou uma 
+	API/Módulo externo
+
+Escopo Frontend
+	Essas aplicações oferecerão ao usuário uma interface amigável com o chatbot e uma maneira de visualizar
+	rapidamente o desempenho da IA
+	Consiste em duas aplicações:
+	- Dashboard com a performance da IA de forma visual no Freshdesk;
+	- Interface do Chatbot no Freshdesk
+		Somente textual
+	
+	*Não perguntamos se precisamos deixar o aplicativo público, pois isso não seria interessante nem para o Dashboard
+	nem para o Chatbot.
+	
+	
+Outras coisas conversadas:
+	- Tanto a interface quanto o "bot-mail" poderão disponibilizar documentos de ajuda através de um link.
+	- Caso o usuário queira enviar um anexo, o atendimento
+	passará para um ser humano automaticamente. A interface trará de 3 até 5 opções, separadas por categorias,
+	baseando-se nos tickets mais comuns daquele login ou endereço de e-mail. 
